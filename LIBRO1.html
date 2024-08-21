@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livre en Ligne</title>
+    <link rel="stylesheet" href="LIBRO1.css">
+</head>
+
+<body>
+<!------
+<video class="video-background" autoplay muted loop>
+<source src="videoMatrix.mp4" type="video/mp4">
+</video>
+----->
+    
+<div class="book" id="book">
+        <div class="cover" id="cover">
+
+            <div class="cover-page"><video class="video-background" autoplay muted loop><!--autoplay, muted, et loop pour que la vidéo se lance automatiquement, sans son, et en boucle.-->
+<source src="videoMatrix.mp4" type="video/mp4"></video><span class="overlay-text"><h1>Intelligence artificielle (IA)</h1></span>
+</div>
+</div>
+
+ <div class="page-pair" id="pair1">
+            <div class="page">L’intelligence artificielle transforme de nombreux secteurs, de la santé à la finance. Les entreprises utilisent l’IA pour automatiser les tâches et améliorer l’efficacité.<br><br>Page 1</div>
+            <div class="page"><div class="container">
+    <img src="IAartificiel.jpg" alt="Image">
+    <p>Page 2</p>
+</div></div>
+        </div>
+
+        <div class="page-pair" id="pair2">
+            <div class="page">Applications dans la santé
+Dans le domaine de la santé, l’IA aide à diagnostiquer les maladies plus rapidement et avec plus de précision, améliorant ainsi les soins aux patients.<br><br>Page 3</div>
+            <div class="page"><div class="container">
+    <img src="IASante.jpg" alt="Image">
+    <p>Page 4</p>
+</div></div>
+        </div>
+        <div class="page-pair" id="pair3">
+            <div class="page">Impact sur l’emploi
+L’IA modifie le marché du travail. Certaines tâches sont automatisées, mais de nouveaux emplois sont créés dans le développement et la gestion de l’IA.<br><br>Page 5</div>
+            <div class="page"><div class="container">
+    <img src="IAAutomatic.jpg" alt="Image">
+    <p>Page 6</p>
+</div></div>
+        </div>
+        <div class="page-pair" id="pair4">
+            <div class="page">Défis éthiques
+L’utilisation de l’IA soulève des questions éthiques, comme la confidentialité des données et les biais algorithmiques. Il est crucial de les aborder de manière responsable.<br><br>Page 7</div>
+            <div class="page"><div class="container">
+    <img src="IADonne.jpg" alt="Image">
+    <p>Page 8</p>
+</div></div>
+        </div>
+        <div class="page-pair" id="pair5">
+            <div class="page">L’avenir de l’IA
+L’IA continuera à évoluer et à s’intégrer dans notre vie quotidienne, offrant des opportunités pour des innovations encore plus grandes.<br><br>Page 9</div>
+            <div class="page"><div class="container">
+    <img src="IAAvenir.jpg" alt="Image">
+    <p>Page 10</p>
+</div></div>
+        </div>
+         <div class="page-pair" id="pair6"> <!-- Nouvelle paire de pages -->
+            <div class="page">Page 11</div>
+            <div class="page">Page 12</div>
+        </div>
+    </div>
+    <center>
+        <button class="btn1" id="prev">Prev</button>
+        <button class="btn2" id="next">Next</button>
+    </center>
+    <script src="LIBRO1.js"></script>
+</body>
+</html>
